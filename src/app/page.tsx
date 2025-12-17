@@ -13,6 +13,7 @@ import NameGate from '@/components/auth/NameGate'
 export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [loverName, setLoverName] = useState('')
+  const [isCountdownDone, setIsCountdownDone] = useState(false)
   const [typingStates, setTypingStates] = useState({
     first: { delay: 0, completed: false },
     second: { delay: null as number | null, completed: false },
@@ -66,6 +67,10 @@ export default function Home() {
     }))
   }, [])
 
+  const handleCountdownComplete = useCallback(() => {
+    setIsCountdownDone(true)
+  }, [])
+
   // Set target date to December 18th at midnight - memoized to prevent re-renders
   const targetDate = useMemo(() => {
     const date = new Date()
@@ -80,6 +85,13 @@ export default function Home() {
 
     return date
   }, [])
+
+  // Check if countdown is already done on mount
+  useEffect(() => {
+    if (targetDate.getTime() <= Date.now()) {
+      setIsCountdownDone(true)
+    }
+  }, [targetDate])
 
   // Show name gate if not authenticated
   if (!isAuthenticated) {
@@ -109,13 +121,21 @@ export default function Home() {
 
         <FadeIn delay={0.2}>
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-pinky-text mb-6">
-              Chỉ còn...
-            </h2>
-            <Countdown targetDate={targetDate} />
-            <h2 className="text-3xl md:text-4xl font-bold text-pinky-text mt-6">
-              Là đến sinh nhật của em rồi nè 🥰
-            </h2>
+            {!isCountdownDone ? (
+              <>
+                <h2 className="text-3xl md:text-4xl font-bold text-pinky-text mb-6">
+                  Chỉ còn...
+                </h2>
+                <Countdown targetDate={targetDate} onComplete={handleCountdownComplete} />
+                <h2 className="text-3xl md:text-4xl font-bold text-pinky-text mt-6">
+                  Là đến sinh nhật của em rồi nè 🥰
+                </h2>
+              </>
+            ) : (
+              <h2 className="text-3xl md:text-4xl font-bold text-pinky-text mb-6">
+                Hôm nay là sinh nhật của em rồi nè 💕
+              </h2>
+            )}
             <div className="text-2xl md:text-3xl text-pinky-text mt-8 flex flex-col items-center justify-center gap-4">
               {typingStates.second.delay !== null && (
                 <TypingText

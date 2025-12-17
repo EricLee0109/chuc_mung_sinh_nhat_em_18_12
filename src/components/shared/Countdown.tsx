@@ -5,15 +5,24 @@ import { useState, useEffect, useRef } from 'react'
 interface CountdownProps {
   targetDate: Date
   className?: string
+  onComplete?: () => void
 }
 
-export default function Countdown({ targetDate, className = '' }: CountdownProps) {
+export default function Countdown({ targetDate, className = '', onComplete }: CountdownProps) {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0,
   })
+  const [isDone, setIsDone] = useState(false)
+  const onCompleteRef = useRef(onComplete)
+  const hasCalledCompleteRef = useRef(false)
+
+  // Update ref when onComplete changes
+  useEffect(() => {
+    onCompleteRef.current = onComplete
+  }, [onComplete])
 
   // Use ref to store target timestamp to avoid re-renders
   // Convert Date to timestamp (number) for stable comparison
@@ -40,8 +49,15 @@ export default function Countdown({ targetDate, className = '' }: CountdownProps
           minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
           seconds: Math.floor((difference % (1000 * 60)) / 1000),
         })
+        setIsDone(false)
       } else {
         setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 })
+        setIsDone(true)
+        // Call onComplete only once when countdown reaches zero
+        if (onCompleteRef.current && !hasCalledCompleteRef.current) {
+          hasCalledCompleteRef.current = true
+          onCompleteRef.current()
+        }
       }
     }
 

@@ -82,7 +82,7 @@ export default function LetterPage() {
                   Em có muốn xem bất ngờ cuối cùng hong? 🎁
                 </h2>
                 <p className="text-base md:text-lg text-pinky-secondary leading-relaxed">
-                  Anh còn chuẩn bị một điều đặc biệt nữa dành cho em, em có muốn khám phá nó không?
+                  Anh còn chuẩn bị một điều đặc biệt nữa dành cho em, em sẵn sàng để khám phá nó chưass?
                 </p>
               </div>
               
