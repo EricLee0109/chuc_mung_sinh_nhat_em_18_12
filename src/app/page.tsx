@@ -41,7 +41,7 @@ export default function Home() {
         <FadeIn delay={0.2}>
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-pinky-text mb-6">
-               My Love's Birthday will coming in...
+               My Love&apos;s Birthday will coming in...
             </h2>
             <Countdown targetDate={targetDate} />
           </div>

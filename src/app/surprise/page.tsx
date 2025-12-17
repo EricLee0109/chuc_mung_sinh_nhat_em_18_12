@@ -67,7 +67,7 @@ export default function SurprisePage() {
                       every moment captured here was created with you in mind.
                     </p>
                     <p>
-                      But wait, there's more... The real surprise is waiting for you
+                      But wait, there&apos;s more... The real surprise is waiting for you
                       in person. Check your messages or look around - you might find
                       something special! 💕
                     </p>

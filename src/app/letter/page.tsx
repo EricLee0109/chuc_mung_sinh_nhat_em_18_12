@@ -32,18 +32,18 @@ export default function LetterPage() {
                 
                 <p className="text-pinky-text text-lg leading-relaxed mb-4">
                   On this special day, I wanted to create something unique for you - something that captures
-                  not just moments, but feelings. This website is more than code; it's a collection of
+                  not just moments, but feelings. This website is more than code; it&apos;s a collection of
                   memories, emotions, and love translated into pixels and animations.
                 </p>
                 
                 <p className="text-pinky-text text-lg leading-relaxed mb-4">
-                  Every memory we've shared, every laugh, every moment of joy - they're all here,
+                  Every memory we&apos;ve shared, every laugh, every moment of joy - they&apos;re all here,
                   preserved in this digital space I built just for you. I hope that as you explore
-                  these pages, you feel the same warmth and happiness that I feel when I'm with you.
+                  these pages, you feel the same warmth and happiness that I feel when I&apos;m with you.
                 </p>
                 
                 <p className="text-pinky-text text-lg leading-relaxed mb-4">
-                  You deserve the world, and while I can't give you that, I can give you this:
+                  You deserve the world, and while I can&apos;t give you that, I can give you this:
                   a piece of my heart, coded with care, designed with love, and created with the
                   hope that it brings a smile to your face.
                 </p>
