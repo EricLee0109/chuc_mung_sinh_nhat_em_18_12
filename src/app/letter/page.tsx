@@ -27,35 +27,35 @@ export default function LetterPage() {
             <GlassCard>
               <div className="prose prose-lg max-w-none">
                 <p className="text-pinky-text text-lg leading-relaxed mb-4">
-                  Em yêu của anh,
+                  Bé iu của anh,
                 </p>
                 
                 <p className="text-pinky-text text-lg leading-relaxed mb-4">
                   Vào ngày đặc biệt này, anh muốn tạo ra một điều gì đó độc đáo dành cho em - một điều gì đó không chỉ ghi lại
-                  những khoảnh khắc, mà còn cả những cảm xúc. Trang web này không chỉ là code; nó là một bộ sưu tập
-                  những kỉ niệm, cảm xúc và tình yêu được dịch thành những pixel và animation.
+                  những khoảnh khắc, mà còn cả những cảm xúc của anh với em. Trang web này không chỉ là code mà nó là một bộ sưu tập
+                  những kỉ niệm, cảm xúc và tình yêu anh dành cho em.
                 </p>
                 
                 <p className="text-pinky-text text-lg leading-relaxed mb-4">
-                  Mỗi kỉ niệm chúng ta đã chia sẻ, mỗi tiếng cười, mỗi khoảnh khắc vui vẻ - tất cả đều ở đây,
-                  được lưu giữ trong không gian kỹ thuật số này mà anh đã xây dựng chỉ dành cho em. Anh hy vọng khi em khám phá
-                  những trang này, em sẽ cảm nhận được sự ấm áp và hạnh phúc giống như anh cảm thấy khi ở bên em.
+                  Mỗi kỉ niệm, tiếng cười, khoảnh khắc vui vẻ cùng nhau - tất cả anh đều để ở đây,
+                  anh sẽ lưu giữ trong không gian này mà anh đã xây dựng chỉ dành cho em. Anh hy vọng khi em khám phá
+                  những kho báu này, em sẽ cảm nhận được sự ấm áp và hạnh phúc giống như anh cảm thấy khi ở bên em.
                 </p>
                 
                 <p className="text-pinky-text text-lg leading-relaxed mb-4">
                   Em xứng đáng có cả thế giới, và dù anh không thể cho em điều đó, nhưng anh có thể cho em điều này:
-                  một phần trái tim của anh, được code bằng sự quan tâm, được thiết kế bằng tình yêu, và được tạo ra với
-                  hy vọng rằng nó sẽ mang lại nụ cười trên khuôn mặt em.
+                  một phần trái tim của anh, được viết bằng sự quan tâm, được thiết kế bằng tình yêu, và được tạo ra với
+                  hy vọng sẽ mang lại nụ cười trên khuôn mặt của em nháaaa 🥰🥰🥰.
                 </p>
                 
                 <p className="text-pinky-text text-lg leading-relaxed mb-4">
-                  Chúc mừng sinh nhật, em yêu của anh. Mong rằng năm nay sẽ mang lại cho em niềm vui vô tận, vô số cuộc phiêu lưu,
-                  và tất cả hạnh phúc mà em mang lại cho người khác.
+                  Chúc mừng sinh nhật, em bé iu cụa anh. Mong rằng từ nay và sau này anh sẽ mang lại cho em niềm vui, những chuyến đi phượt khám phá nhiều thứ mới mẻ cùng nhau,
+                  và mong em hạnh phúc với tình cảm mà anh dành cho em 💕.
                 </p>
                 
                 <p className="text-pinky-text text-xl font-semibold mt-8 text-right">
-                  Với tất cả tình yêu của anh,<br />
-                  Mãi mãi là của em 💕
+                  Với tất cả tấm lòng của anh,<br />
+                  Luv Luv U So Much 💕
                 </p>
               </div>
             </GlassCard>

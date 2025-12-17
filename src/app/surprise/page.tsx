@@ -42,13 +42,13 @@ export default function SurprisePage() {
                 <div className="text-center py-12">
                   <div className="text-8xl mb-8 animate-bounce">🎁</div>
                   <h3 className="text-3xl font-bold text-pinky-text mb-4">
-                    Sẵn sàng cho bất ngờ chưa?
+                    Em sẵn sàng cho bất ngờ chưa?
                   </h3>
                   <p className="text-pinky-secondary text-lg mb-8">
-                    Nhấp vào nút bên dưới để khám phá điều đặc biệt...
+                    Nhấp vào nút bên dưới để khám phá điều đặc biệt nhaaaa...
                   </p>
                   <PinkButton size="lg" onPress={handleReveal}>
-                    Mở bất ngờ! ✨
+                    Mở bất ngờ này! ✨
                   </PinkButton>
                 </div>
               </GlassCard>
@@ -59,20 +59,26 @@ export default function SurprisePage() {
                 <div className="text-center py-12">
                   <div className="text-8xl mb-8">🎉</div>
                   <h3 className="text-4xl font-bold text-pinky-text mb-6">
-                    Bất ngờ! 🎊
+                    Surpise! 🎊
                   </h3>
                   <div className="space-y-4 text-lg text-pinky-secondary">
                     <p>
-                      Toàn bộ trang web này là món quà dành cho em! Mỗi trang, mỗi animation,
-                      mỗi khoảnh khắc được ghi lại ở đây đều được tạo ra với em trong tâm trí.
+                      Toàn bộ trang web này là món quà đặc biệt anh muốn dành nó cho em! Mỗi khoảnh khắc, mỗi animation,
+                      đều được anh ghi lại ở đây.
                     </p>
                     <p>
-                      Nhưng đợi đã, còn nhiều hơn nữa... Bất ngờ thật sự đang chờ em
-                      ở ngoài đời thực. Kiểm tra tin nhắn của em hoặc nhìn xung quanh - em có thể tìm thấy
-                      điều gì đó đặc biệt! 💕
+                      Nhưng đợi đã, anh còn nhiều hơn nữa... Bất ngờ thật sự đang chờ em
+                      không chỉ ở trên đây thôi đâu nha. Em hãy kiểm tra xung quanh em xem - em có thể tìm thấy
+                      điều gì đó đặc biệt không! 💕
                     </p>
                     <p className="text-pinky-primary font-semibold text-xl mt-8">
-                      Anh hy vọng điều này sẽ mang lại nụ cười trên khuôn mặt em hôm nay và mãi mãi.
+                      Đương nhiên em sẽ không tìm ra nó đâu. Vì hiện tại nó đang nằm trong tay của anh này hehehehehe 🤣🤣🤣
+                    </p>
+                    <p className="text-pinky-primary font-semibold text-xl mt-8">
+                      Anh đùa em đấy, anh sẽ gửi nó cho em sau nhaaaa 🥰🥰🥰
+                    </p>
+                    <p className="text-pinky-primary font-semibold text-xl mt-8">
+                      Anh hy vọng em sẽ thích món quà và website tâm huyết này của anh, cảm ơn em vì đã dành thời gian cảm nhận nó 💕
                     </p>
                   </div>
                 </div>

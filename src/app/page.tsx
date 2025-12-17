@@ -184,9 +184,9 @@ export default function Home() {
         <FadeIn delay={0.6}>
           <div className="text-center">
             <p className="text-pinky-text text-lg mb-6">
-              Cuộn xuống để khám phá, hoặc nhấp vào bất kỳ thẻ nào ở trên để bắt đầu hành trình của em
+              Em kéo lên trên để khám phá, hoặc nhấp vào bất kỳ thẻ nào để bắt đầu hành trình của mình
             </p>
-            <div className="text-4xl animate-bounce">👇</div>
+            <div className="text-4xl animate-bounce">👆</div>
           </div>
         </FadeIn>
       </main>
