@@ -22,3 +22,18 @@ body {
   }
 }
 
+/* Next UI Input custom styling for pink theme */
+[data-slot="input-wrapper"] {
+  --input-border-color: rgba(255, 111, 174, 0.3) !important;
+}
+
+[data-slot="input-wrapper"]:hover,
+[data-slot="input-wrapper"][data-hover="true"] {
+  --input-border-color: #FF6FAE !important;
+}
+
+[data-slot="input-wrapper"]:focus-within,
+[data-slot="input-wrapper"][data-focus="true"] {
+  --input-border-color: #FF6FAE !important;
+}
+
