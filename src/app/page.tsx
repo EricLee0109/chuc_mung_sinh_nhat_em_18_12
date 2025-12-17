@@ -120,7 +120,7 @@ export default function Home() {
               {typingStates.second.delay !== null && (
                 <TypingText
                   speed={100}
-                  text="Nên anh đã chuẩn bị một số món quà nho nhỏ dành cho em 💕"
+                  text="Nên anh đã chuẩn bị một số món quà dành cho em 💕"
                   delay={typingStates.second.delay}
                   onComplete={handleSecondTypingComplete}
                 />
