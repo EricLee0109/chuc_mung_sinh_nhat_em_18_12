@@ -16,11 +16,11 @@ export default function TimelinePage() {
       <main className="relative z-10 container mx-auto px-4 py-16">
         <Link href="/" className="inline-flex items-center text-pinky-text mb-8 hover:text-pinky-primary transition-colors">
           <Icon icon="mdi:arrow-left" width={24} height={24} className="mr-2" />
-          Back to Home
+          Về trang chủ
         </Link>
 
         <FadeIn>
-          <SectionTitle>Our Timeline ⏰</SectionTitle>
+          <SectionTitle>Hành trình của chúng ta ⏰</SectionTitle>
         </FadeIn>
 
         <div className="max-w-3xl mx-auto space-y-6">

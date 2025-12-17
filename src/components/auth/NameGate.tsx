@@ -106,18 +106,18 @@ export default function NameGate({ onSuccess }: NameGateProps) {
                 💕
               </motion.div>
               <h2 className="text-2xl md:text-3xl font-bold text-pinky-text mb-2">
-                Hello my darling 🤣
+                Xin chào em yêu 🤣
               </h2>
               <p className="text-pinky-secondary">
-                Please enter your lover&apos;s name to continue
+                Vui lòng nhập tên người yêu của em để tiếp tục
               </p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <Input
                 type="text"
-                label="Input your lover name"
-                placeholder="Enter name here..."
+                label="Nhập tên người yêu của em"
+                placeholder="Nhập tên ở đây..."
                 value={name}
                 onValueChange={handleInputChange}
                 isInvalid={!!error}
@@ -152,11 +152,11 @@ export default function NameGate({ onSuccess }: NameGateProps) {
                 {isSubmitting ? (
                   <>
                     <Icon icon="mdi:loading" className="animate-spin mr-2" width={20} height={20} />
-                    Checking...
+                    Đang kiểm tra...
                   </>
                 ) : (
                   <>
-                    Continue
+                    Tiếp tục
                     <Icon icon="mdi:arrow-right" className="ml-2" width={20} height={20} />
                   </>
                 )}

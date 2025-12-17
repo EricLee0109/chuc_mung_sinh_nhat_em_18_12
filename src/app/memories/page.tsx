@@ -21,12 +21,12 @@ export default function MemoriesPage() {
             className="inline-flex items-center text-pinky-text hover:text-pinky-primary transition-colors text-sm md:text-base mb-4 md:mb-6"
           >
             <Icon icon="mdi:arrow-left" width={20} height={20} className="mr-2 md:w-6 md:h-6" />
-            Back to Home
+            Về trang chủ
           </Link>
 
           <FadeIn>
             <h1 className="text-3xl md:text-5xl font-bold text-pinky-text text-center">
-              Our Memories 💕
+              Kỉ niệm của chúng ta 💕
             </h1>
           </FadeIn>
         </div>
@@ -41,7 +41,7 @@ export default function MemoriesPage() {
         {/* Instructions - Hidden on mobile, shown on desktop */}
         <FadeIn delay={0.4}>
           <div className="hidden md:block text-center mt-4 text-pinky-secondary text-sm">
-            <p>💡 Swipe left/right or use arrow keys to navigate</p>
+            <p>💡 Vuốt trái/phải hoặc dùng phím mũi tên để điều hướng</p>
           </div>
         </FadeIn>
       </main>

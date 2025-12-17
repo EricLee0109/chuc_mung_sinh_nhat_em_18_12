@@ -226,7 +226,7 @@ export default function MemoryCarousel({ memories }: MemoryCarouselProps) {
                   ? 'bg-pinky-primary w-8 h-3 md:w-10 md:h-3'
                   : 'bg-pinky-accent w-3 h-3 md:w-3 md:h-3 hover:bg-pinky-secondary'
               }`}
-              aria-label={`Go to memory ${index + 1}`}
+              aria-label={`Đi đến kỉ niệm ${index + 1}`}
             />
           ))}
         </div>
@@ -245,8 +245,8 @@ export default function MemoryCarousel({ memories }: MemoryCarouselProps) {
               <div className="absolute bottom-1 right-1/4 w-1 h-1 bg-white rounded-full animate-pulse delay-150" />
             </div>
             <Icon icon="mdi:chevron-left" width={20} height={20} className="relative z-10" />
-            <span className="hidden sm:inline relative z-10">Previous</span>
-            <span className="sm:hidden relative z-10">Prev</span>
+            <span className="hidden sm:inline relative z-10">Trước</span>
+            <span className="sm:hidden relative z-10">Trước</span>
           </button>
 
           {/* Card Counter - Glassmorphic Style */}
@@ -265,8 +265,8 @@ export default function MemoryCarousel({ memories }: MemoryCarouselProps) {
               <div className="absolute top-1 left-1/4 w-1 h-1 bg-white rounded-full animate-pulse" />
               <div className="absolute bottom-1 right-1/4 w-1 h-1 bg-white rounded-full animate-pulse delay-150" />
             </div>
-            <span className="hidden sm:inline relative z-10">Next</span>
-            <span className="sm:hidden relative z-10">Next</span>
+            <span className="hidden sm:inline relative z-10">Tiếp</span>
+            <span className="sm:hidden relative z-10">Tiếp</span>
             <Icon icon="mdi:chevron-right" width={20} height={20} className="relative z-10" />
           </button>
         </div>

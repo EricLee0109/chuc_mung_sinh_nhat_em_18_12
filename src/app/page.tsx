@@ -94,7 +94,7 @@ export default function Home() {
         <FadeIn>
           <div className="text-center mb-12">
             <h1 className="text-6xl md:text-8xl font-bold text-pinky-text mb-6">
-              💕 Happy Birthday! 💕
+              💕 Chúc mừng sinh nhật! 💕
             </h1>
             <div className="text-2xl md:text-3xl text-pinky-secondary mb-8">
               <TypingText
@@ -143,8 +143,8 @@ export default function Home() {
               <GlassCard className="cursor-pointer h-full">
                 <div className="text-center">
                   <div className="text-5xl mb-4">📸</div>
-                  <h3 className="text-xl font-semibold text-pinky-text mb-2">Memories</h3>
-                  <p className="text-pinky-secondary">Our beautiful moments together</p>
+                  <h3 className="text-xl font-semibold text-pinky-text mb-2">Kỉ niệm</h3>
+                  <p className="text-pinky-secondary">Những khoảnh khắc đẹp của chúng ta</p>
                 </div>
               </GlassCard>
             </Link>
@@ -153,8 +153,8 @@ export default function Home() {
               <GlassCard className="cursor-pointer h-full">
                 <div className="text-center">
                   <div className="text-5xl mb-4">⏰</div>
-                  <h3 className="text-xl font-semibold text-pinky-text mb-2">Timeline</h3>
-                  <p className="text-pinky-secondary">Our journey together</p>
+                  <h3 className="text-xl font-semibold text-pinky-text mb-2">Hành trình</h3>
+                  <p className="text-pinky-secondary">Hành trình của chúng ta</p>
                 </div>
               </GlassCard>
             </Link>
@@ -163,8 +163,8 @@ export default function Home() {
               <GlassCard className="cursor-pointer h-full">
                 <div className="text-center">
                   <div className="text-5xl mb-4">💌</div>
-                  <h3 className="text-xl font-semibold text-pinky-text mb-2">Letter</h3>
-                  <p className="text-pinky-secondary">A message from my heart</p>
+                  <h3 className="text-xl font-semibold text-pinky-text mb-2">Lá thư</h3>
+                  <p className="text-pinky-secondary">Lời nhắn từ trái tim anh</p>
                 </div>
               </GlassCard>
             </Link>
@@ -173,8 +173,8 @@ export default function Home() {
               <GlassCard className="cursor-pointer h-full">
                 <div className="text-center">
                   <div className="text-5xl mb-4">🎁</div>
-                  <h3 className="text-xl font-semibold text-pinky-text mb-2">Surprise</h3>
-                  <p className="text-pinky-secondary">Something special awaits</p>
+                  <h3 className="text-xl font-semibold text-pinky-text mb-2">Bất ngờ</h3>
+                  <p className="text-pinky-secondary">Điều đặc biệt đang chờ em</p>
                 </div>
               </GlassCard>
             </Link>
@@ -184,7 +184,7 @@ export default function Home() {
         <FadeIn delay={0.6}>
           <div className="text-center">
             <p className="text-pinky-text text-lg mb-6">
-              Scroll down to explore, or click on any card above to begin your journey
+              Cuộn xuống để khám phá, hoặc nhấp vào bất kỳ thẻ nào ở trên để bắt đầu hành trình của em
             </p>
             <div className="text-4xl animate-bounce">👇</div>
           </div>
