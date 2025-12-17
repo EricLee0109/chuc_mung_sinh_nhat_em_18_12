@@ -106,10 +106,10 @@ export default function NameGate({ onSuccess }: NameGateProps) {
                 💕
               </motion.div>
               <h2 className="text-2xl md:text-3xl font-bold text-pinky-text mb-2">
-                Xin chào em yêu 🤣
+                Ayonnn bé iu 🤣
               </h2>
               <p className="text-pinky-secondary">
-                Vui lòng nhập tên người yêu của em để tiếp tục
+                Vui lòng nhập tên người đặc biệt của em để tiếp tục :3
               </p>
             </div>
 
