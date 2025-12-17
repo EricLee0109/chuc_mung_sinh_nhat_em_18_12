@@ -12,8 +12,9 @@ export function Confetti({ trigger, particleCount = 120, spread = 70 }: Confetti
   useEffect(() => {
     if (trigger && typeof window !== 'undefined') {
       // Dynamic import to avoid SSR issues
-      import('canvas-confetti').then((confetti) => {
-        confetti.default({
+      import('canvas-confetti').then((confettiModule) => {
+        const confetti = confettiModule.default || confettiModule
+        confetti({
           particleCount,
           spread,
           origin: { y: 0.6 },
