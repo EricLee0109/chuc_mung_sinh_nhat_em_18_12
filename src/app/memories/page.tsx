@@ -32,7 +32,7 @@ export default function MemoriesPage() {
         </div>
 
         {/* Carousel - Takes remaining space */}
-        <FadeIn delay={0.2}>
+        <FadeIn delay={0.3}>
           <div className="flex-1 flex flex-col min-h-0">
             <MemoryCarousel memories={memories} />
           </div>

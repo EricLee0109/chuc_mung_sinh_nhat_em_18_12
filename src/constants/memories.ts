@@ -49,5 +49,40 @@ export const memories: Memory[] = [
     description: 'Every day with you is perfect.',
     date: '2024-06-01',
   },
+  {
+    id: '7',
+    image: '/images/memory7.jpg',
+    title: 'Beautiful Moments',
+    description: 'Capturing the beauty of our time together.',
+    date: '2024-07-15',
+  },
+  {
+    id: '8',
+    image: '/images/memory8.jpg',
+    title: 'Cherished Memories',
+    description: 'Moments that will last forever in my heart.',
+    date: '2024-08-20',
+  },
+  {
+    id: '9',
+    image: '/images/memory9.jpg',
+    title: 'Love & Laughter',
+    description: 'Filled with love, laughter, and endless joy.',
+    date: '2024-09-10',
+  },
+  {
+    id: '10',
+    image: '/images/memory10.jpg',
+    title: 'Special Times',
+    description: 'Every moment with you is a treasure.',
+    date: '2024-10-05',
+  },
+  {
+    id: '11',
+    image: '/images/memory11.jpg',
+    title: 'Forever Together',
+    description: 'Our journey continues, filled with love and happiness.',
+    date: '2024-11-18',
+  },
 ]
 
