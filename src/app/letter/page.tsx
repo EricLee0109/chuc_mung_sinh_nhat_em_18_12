@@ -1,5 +1,6 @@
 'use client'
 
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import FloatingHearts from '@/components/effects/FloatingHearts'
 import { FadeIn } from '@/components/effects/FadeIn'
@@ -8,6 +9,16 @@ import GlassCard from '@/components/ui/GlassCard'
 import { Icon } from '@iconify/react'
 
 export default function LetterPage() {
+  const router = useRouter()
+
+  const handleContinue = () => {
+    router.push('/surprise')
+  }
+
+  const handleGoBack = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   return (
     <div className="relative min-h-screen bg-pinky-bg overflow-hidden">
       <FloatingHearts />
@@ -57,6 +68,40 @@ export default function LetterPage() {
                   Với tất cả tấm lòng của anh,<br />
                   Luv Luv U So Much 💕
                 </p>
+              </div>
+            </GlassCard>
+          </div>
+        </FadeIn>
+
+        {/* Navigation Footer */}
+        <FadeIn delay={0.5}>
+          <div className="max-w-3xl mx-auto mt-12 md:mt-16">
+            <GlassCard className="p-6 md:p-8">
+              <div className="text-center mb-6">
+                <h2 className="text-2xl md:text-3xl font-bold text-pinky-text mb-4">
+                  Em có muốn xem bất ngờ cuối cùng hong? 🎁
+                </h2>
+                <p className="text-base md:text-lg text-pinky-secondary leading-relaxed">
+                  Anh còn chuẩn bị một điều đặc biệt nữa dành cho em, em có muốn khám phá nó không?
+                </p>
+              </div>
+              
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
+                <button
+                  onClick={handleGoBack}
+                  className="group relative flex-1 flex items-center justify-center gap-2 px-4 md:px-6 py-3 rounded-full bg-white/20 backdrop-blur-xl border border-white/40 text-pinky-text font-medium text-sm md:text-base transition-all duration-300 hover:bg-white/30 hover:border-white/60 hover:shadow-[0_8px_32px_rgba(255,111,174,0.2)] hover:scale-105 active:scale-95"
+                >
+                  <div className="absolute inset-0 rounded-full bg-white/10 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <span className="relative z-10">Đọc lại lá thư</span>
+                </button>
+                
+                <button
+                  onClick={handleContinue}
+                  className="group relative flex-1 flex items-center justify-center gap-2 px-4 md:px-6 py-3 rounded-full bg-pinky-primary/80 backdrop-blur-xl border border-pinky-primary/50 text-white font-medium text-sm md:text-base transition-all duration-300 hover:bg-pinky-primary hover:border-pinky-primary hover:shadow-[0_8px_32px_rgba(255,111,174,0.4)] hover:scale-105 active:scale-95"
+                >
+                  <div className="absolute inset-0 rounded-full bg-white/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <span className="relative z-10">Em muốn xem! 💕</span>
+                </button>
               </div>
             </GlassCard>
           </div>

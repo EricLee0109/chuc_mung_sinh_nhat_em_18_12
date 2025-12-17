@@ -78,7 +78,7 @@ export default function SurprisePage() {
                       Anh đùa em đấy, anh sẽ gửi nó cho em sau nhaaaa 🥰🥰🥰
                     </p>
                     <p className="text-pinky-primary font-semibold text-xl mt-8">
-                      Anh hy vọng em sẽ thích món quà và website tâm huyết này của anh, cảm ơn em vì đã dành thời gian cảm nhận nó 💕
+                      Anh hy vọng em sẽ thích món quà và website tâm huyết này của anh, nên có gì sai sốt mong em cảm thông và đón nhận nó nha 💕
                     </p>
                   </div>
                 </div>
